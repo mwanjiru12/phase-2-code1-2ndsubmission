@@ -54,12 +54,19 @@ body {
   width: 80%;
 }
 
-#search-form button {
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 26px;
+#search-form button{
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: #020f06;
+  color: white;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search-form button:hover {
+  background-color: rgba(85, 13, 200, 0.844);
 }
 
 .form-inputs {
