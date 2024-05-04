@@ -114,6 +114,20 @@ body {
   background-color: rgba(85, 13, 200, 0.844);
 }
 
+label {
+
+}
+select {
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: gray;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
 #fa-plus {
   color: green;
   font-weight: 600;
