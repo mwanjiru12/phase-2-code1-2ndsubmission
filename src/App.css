@@ -94,20 +94,24 @@ body {
   margin-bottom: 10px;
     margin: 5px 10px 5px 0;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#new-item-form button {
-  height: 25px;
-  margin-top: 8px;
-  border-radius: 10px;
-  outline: 0;
-  border: 0;
-  cursor: pointer;
-  background-color: gray;
+#new-item-form button{
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: #020f06;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#new-item-form button:hover {
+  background-color: rgba(85, 13, 200, 0.844);
 }
 
 #fa-plus {
